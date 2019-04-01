@@ -13,3 +13,5 @@
  > - Unsigned char movement defines how the motor will spin - CCW (Counterclockwise) CW (Clockwise)
  > - Unsigned char speed = defines the *speed* of the motor **LOWEST** value 0, **HIGHEST** - 0xfff (4095 in BINARY)
  - To **STOP** a motor use **motor_set_state(motor nr, STOP)**, replacing the variable *motor nr* with the motor you want to stop. (M1, M2, M3 or M4)
+
+
