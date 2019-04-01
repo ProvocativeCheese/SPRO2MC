@@ -7,10 +7,9 @@ TO CONTROL THE SOLENOID
   solenoid(1) means the solenoid will be turned on and solenoid(0) is for turning the solenoid off
   
  TO CONTROL THE MOTORS
- - use the function motors() 
+ - use the custom function created called: motors() 
  - This is what the prototype function looks like void motors(unsigned char motorNr, unsigned char movment, unsigned int speed )
-  unsigned char motoNr = assign the motor number such as M1, M2, M3 or M4
-  unsigned char movement defines how the motor will spin - CCW (Counterclockwise) CW (Clockwise)
-  unsigned char speed = defines the speed of the motor lowest value 0, highest - 0xfff (4095 in BINARY)
-  
+ - unsigned char motoNr = assign the motor number such as M1, M2, M3 or M4
+ - unsigned char movement defines how the motor will spin - CCW (Counterclockwise) CW (Clockwise)
+ - unsigned char speed = defines the speed of the motor lowest value 0, highest - 0xfff (4095 in BINARY)
  - To STOP a motor use motor_set_state(motor nr, STOP), replacing the motor nr with the motor you want to stop. (M1, M2, M3 or M4)
