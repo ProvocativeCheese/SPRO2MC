@@ -1,11 +1,6 @@
 # SPRO2MC
 **_SWING SWING SWING THE APE GENTLY DOWN THE RAIL. HOPE IT WON'T FALL, HOPE IT WON'T FALL OR ELSE WE'LL ALL JUST FAIL_** 
 
-
-**TO CONTROL THE SOLENOID**
-- The solenoid function works with inputing a 1 or a 0 in the function **_solenoid()_** 
-- solenoid(1) means the solenoid will be turned **ON** and solenoid(0) is for turning the solenoid **OFF**
-  
  **TO CONTROL THE MOTORS**
  - Use the custom function created called: **_motors()_** 
  - This is what the *PROTOTYPE* function looks like **_void motors(unsigned char motorNr, unsigned char movment, unsigned int speed )_**
