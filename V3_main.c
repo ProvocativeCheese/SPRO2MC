@@ -14,6 +14,7 @@ void motor_speed(int delay2, unsigned char motor_nr, unsigned char movement, int
 void start_switch(void);
 void setup();
 void initialize_motors();
+#include "i2cmaster.h";
 
 unsigned char motorNr;
 unsigned char movment;
@@ -24,6 +25,7 @@ volatile unsigned char shutdown=1;
 
 int main (void)
 {
+	i2c_init();
 	initialize_motors(); // Sets all the inputs/outputs and sets the motor frequency etc	
 	
 	while(1) 
